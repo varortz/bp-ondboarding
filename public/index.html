@@ -9,6 +9,7 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -29,6 +30,59 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+      <div className="App" >
+        <div class="sign-in"> 
+
+          <div class="welcome-box">
+            <div class="welcome-back-text">
+              Welcome Back!
+            </div>
+            <div class="welcome-description">
+              Sign in to continue
+            </div>
+            
+          </div>
+
+          <div class="inputs">
+
+            <div class="input-headers">
+              <div class="email-header">
+                Email
+              </div>
+              <div class="password-header">
+                Password
+              </div>
+            </div>
+
+            <div class="input-fields" style="justify-content: space-evenly;">
+
+              <input type="text" class="input-text">
+                
+
+              </input>
+
+              <input type="text" class="input-text">
+                
+
+              </input>
+              
+            </div>
+
+          </div>
+
+          <!--FOOTER-->
+          <div class="button-footer" style="font-size: 14px;">
+            <p>
+              Haven't started your account yet? <b><a href="" style="color: midnightblue;">Activate Now</a></b>
+            </p>
+            <button class="sign-in-button" style="color: white; font-size: 13px;">
+              Sign In
+            </button>
+
+          </div>
+          
+        </div>
+      </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
